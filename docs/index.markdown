@@ -2,6 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: landing
+title: DevilaCrew
+description: this is the landing page's description
 ---
-# Test
+# This is just the beginning. Stay tuned for more >:)

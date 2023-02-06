@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: static
 title:  RAVES
 categories: fiesta
 ---

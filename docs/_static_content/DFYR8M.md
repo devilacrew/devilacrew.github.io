@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: static
 title:  DFYR 8M
 categories: lucha
 ---

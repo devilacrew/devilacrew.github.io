@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: static
 title:  Territorio Festival
 categories: fiesta
 ---

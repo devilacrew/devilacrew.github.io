@@ -6,4 +6,4 @@ layout: landing
 title: DevilaCrew
 description: this is the landing page's description
 ---
-# This is just the beginning. Stay tuned for more >:)
+# Devila Crew

@@ -35,9 +35,14 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+collections_dir: contenido
+
 collections:
   static_content:
     output: true
+  dfyr8m:
+    output: true
+    sort_by: edition
 
 # Exclude from processing.
 # The following items will not be processed, by default.

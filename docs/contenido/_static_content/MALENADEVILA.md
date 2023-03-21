@@ -1,6 +1,6 @@
 ---
 layout: static
-title:  MALENA DJ
+title:  MALENA DEVILA
 categories: fama
 ---
 un post con contenido

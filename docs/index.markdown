@@ -5,5 +5,6 @@
 layout: landing
 title: DevilaCrew
 description: this is the landing page's description
+collection_name: dfyr8m
 ---
 # Devila Crew

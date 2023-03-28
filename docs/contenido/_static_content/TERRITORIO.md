@@ -2,6 +2,7 @@
 layout: static
 title:  TERRITORIO FESTIVAL
 categories: fiesta
+postcard: territorio_postcard.webp
 ---
 # el festival más guay de toda espanya
 

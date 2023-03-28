@@ -30,7 +30,6 @@ twitter_username: jekyllrb
 github_username:  devilaCrew
 
 # Build settings
-#remote_theme: devilacrew/devilaTheme
 plugins:
   - jekyll-feed
  # - jekyll-remote-theme
@@ -43,7 +42,15 @@ collections:
   dfyr8m:
     output: true
     sort_by: edition
-
+  malena:
+    output: true
+    sort_by: edition
+  raves:
+    output: true
+    sort_by: edition
+  territorio_festival:
+    output: true
+    sort_by: edition
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

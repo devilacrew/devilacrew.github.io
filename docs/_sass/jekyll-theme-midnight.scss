@@ -48,6 +48,19 @@ h3 {
   color: #b6b6b6;
 }
 
+.postcard-preview {
+  display: block;
+  width: 940px;
+  height: 300px;
+  overflow: hidden;
+  border: 1px solid red;
+  display: block;
+}
+
+.postcard-preview-title {
+  font-size:28px;
+}
+
 a {
   color:#ffcc00;
   font-weight:400;
@@ -70,7 +83,7 @@ strong {
   font-weight: normal;
 }
 
-.wrapper {
+.dynamic-content {
   max-width:800px;
   margin:220px auto;
   position:relative;

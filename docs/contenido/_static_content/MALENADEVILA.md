@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: malena
 title:  MALENA DEVILA
 categories: fama
 ---

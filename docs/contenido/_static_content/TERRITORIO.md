@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: territorio
 title:  TERRITORIO FESTIVAL
 categories: fiesta
 postcard: territorio_postcard.webp

@@ -1,29 +1,25 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US" }}">
 {% include head.html %}
 <body>
-    {% include top.html %}
+{% include top.html %}
 
-<div class="wrapper">
+<div class="dynamic-content">
+    <hr>
 
-    <section>
-        <div id="title">
-            <hr>
-            {{ content }}
+    {% for post in site.malena %}
+    <div>
+        <a href="{{ post.url }}">
+            <div class="postcard-preview">
+                <img src="{{ post.postcard }}">
+            </div>
+            <div class="postcard-preview-title">{{ post.title }}</div>
+            <p class="postcard-preview-text">{{ post.clickbait }}</p>
+        </a>
+    </div>
+    {% endfor %}
 
-                {% for post in site.dfyr8m %}
-                <div>
-                    <a href="{{ post.url }}"><img src="{{ post.postcard }}"></a>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </div>
-                {% endfor %}
-
-            <span class="credits left">maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-        </div>
-
-
-    </section>
-
+    {% include credits-left.html %}
 </div>
 </body>
 </html>

@@ -1,10 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+{% include head.html %}
 <body>
-$END$
+{% include top.html %}
+
+<div class="dynamic-content">
+  <hr>
+
+  {% for post in site.raves %}
+  <div>
+    <a href="{{ post.url }}">
+      <div class="postcard-preview">
+        <img src="{{ post.postcard }}">
+      </div>
+      <div class="postcard-preview-title">{{ post.title }}</div>
+      <p class="postcard-preview-text">{{ post.clickbait }}</p>
+    </a>
+  </div>
+  {% endfor %}
+
+  {% include credits-left.html %}
+</div>
 </body>
 </html>
